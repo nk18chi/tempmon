@@ -2,10 +2,10 @@
 
 tempmon is a tool that helps develop Node.js based applications by monitoring your directory and automatically creating initial files based on your template when a new folder is created in the directory.
 
-https://img.shields.io/github/license/nk18chi/tempmon
-https://img.shields.io/github/workflow/status/nk18chi/tempmon/production
-https://img.shields.io/github/v/release/nk18chi/tempmon
-https://img.shields.io/github/downloads/nk18chi/tempmon/total
+![GitHub](https://img.shields.io/github/license/nk18chi/tempmon)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/nk18chi/tempmon/production)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/nk18chi/tempmon)
+![GitHub all releases](https://img.shields.io/github/downloads/nk18chi/tempmon/total)
 
 https://user-images.githubusercontent.com/42604585/190933111-1366ba6a-932b-4b22-bc4d-73a4d0a5e00b.mov
 
