@@ -9,7 +9,6 @@ on:
 jobs:
   testing:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
     steps:
       - name: Setup Node@16.10.0
         uses: actions/setup-node@v2.4.1
