@@ -1,6 +1,6 @@
 {
   "name": "tempmon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Monitor for a created folder and automatically generate custom files based on your templates - perfect for development",
   "main": "index.js",
   "scripts": {
