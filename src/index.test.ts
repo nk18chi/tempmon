@@ -29,6 +29,7 @@ describe("index.js", () => {
 
       const directory = "targetDirectory";
       watcher.emit("addDir", directory);
+      await new Promise((r) => setTimeout(r, 500));
 
       // after
       expect(fse.copySync).toHaveBeenCalledTimes(1);

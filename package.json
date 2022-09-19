@@ -4,7 +4,7 @@
   "description": "Monitor for a created folder and automatically generate custom files based on your templates - perfect for development",
   "main": "index.js",
   "scripts": {
-    "test": "jest --maxWorkers=1",
+    "test": "jest --maxWorkers=1 --detectOpenHandles --forceExit",
     "test:watch": "jest --watchAll --maxWorkers=1",
     "lint": "eslint --max-warnings=0 --cache --fix",
     "lint-staged": "lint-staged",
