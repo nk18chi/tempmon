@@ -1,0 +1,27 @@
+name: CI/Testing
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node@16.10.0
+        uses: actions/setup-node@v2.4.1
+        with:
+          node-version: "16.10.0"
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: |
+          yarn install
+
+      - name: Unit Testing
+        run: |
+          yarn test
